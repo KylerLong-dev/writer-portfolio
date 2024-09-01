@@ -12,8 +12,9 @@ body {
 }
 
 header {
-    background-color: #6b4f4f;
+    background-color: #ac926fe0;
     color: #f4f1ea;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
     border-bottom: 5px solid #3b2b2b;
@@ -30,16 +31,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 650px;
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
-    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay for better text readability */
+    padding: 60px;
     border-radius: 10px;
 }
 
 .hero h2 {
+    color: #f4f1ea;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
