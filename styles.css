@@ -131,6 +131,14 @@ footer p {
         padding: 60px 10px;
     }
 
+    .hero-content {
+        padding: 40px;
+    }
+
+    footer {
+        padding: 15px; 
+    }
+
     section {
         padding: 15px;
         margin: 10px;
@@ -144,7 +152,15 @@ footer p {
 @media (max-width: 480px) {
     .hero {
         padding: 40px 5px;
-        height: 400px; /* Adjust height as needed */
+        height: 400px; 
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 10px;
     }
 
     section {
