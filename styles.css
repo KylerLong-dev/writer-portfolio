@@ -123,6 +123,7 @@ footer {
 
 footer p {
     margin: 0px;
+    text-align: center;
 }
 
 /* Responsive Styles */
@@ -132,7 +133,7 @@ footer p {
     }
 
     .hero-content {
-        padding: 40px;
+        padding: 20px;
     }
 
     footer {
@@ -152,11 +153,11 @@ footer p {
 @media (max-width: 480px) {
     .hero {
         padding: 40px 5px;
-        height: 400px; 
+        height: 600px;
     }
 
     .hero-content {
-        padding: 20px;
+        padding: 10px;
     }
 
     footer {
