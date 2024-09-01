@@ -20,6 +20,34 @@ header {
     border-bottom: 5px solid #3b2b2b;
 }
 
+nav {
+    background-color: #3b2b2b;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f1ea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 .hero {
     background-image: url('images/heropic.jpg');
     background-size: cover;
@@ -83,12 +111,18 @@ h2 {
 }
 
 footer {
-    background-color: #6b4f4f;
+    background-color: #ac926fe0;
     color: #f4f1ea;
-    text-align: center;
-    padding: 10px 0;
     border-top: 5px solid #3b2b2b;
-    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0px;
 }
 
 /* Responsive Styles */
