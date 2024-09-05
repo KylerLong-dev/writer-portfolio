@@ -174,7 +174,7 @@ h2 {
 
 .cards-container {
     display: flex;
-    gap: 35px;
+    gap: 150px;
     justify-content: center;
 }
 
@@ -204,6 +204,12 @@ footer p {
     .about-img-container {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 1040px) {
+    .cards-container {
+        gap: 50px;
     }
 }
 
