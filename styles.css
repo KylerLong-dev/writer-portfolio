@@ -71,19 +71,33 @@ nav ul li a:hover {
     height: 650px;
 }
 
+.blog-hero {
+    background-image: url('images/IMG_2788.JPEG');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This creates the parallax effect */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px; 
+}
+
 .hero-content {
     background: rgba(0, 0, 0, 0.7); /* Dark overlay for better text readability */
     padding: 60px;
     border-radius: 10px;
 }
 
-.hero h2 {
+.hero h2, .blog-hero h2 {
     color: #f4f1ea;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.hero p {
+.hero p, .blog-hero p {
     font-size: 1.2em;
 }
 
@@ -121,6 +135,7 @@ section {
 
 h2 {
     color: #6b4f4f;
+    margin-top: 0;
 }
 
 .works-header {
@@ -207,7 +222,7 @@ footer p {
 
 /* Responsive Styles */
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     #about {
         flex-direction: column;
     }
@@ -225,7 +240,7 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    .hero {
+    .hero, .blog-hero {
         padding: 60px 10px;
         background-position: center center;
         background-attachment: scroll;
@@ -267,7 +282,7 @@ footer p {
 }
 
 @media (max-width: 480px) {
-    .hero {
+    .hero, .blog-hero {
         padding: 40px 5px;
         height: 600px;
         background-position: center center;
