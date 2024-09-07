@@ -90,10 +90,22 @@
         </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        </section>
-        
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form action="https://formsubmit.co/your@email.com" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                </div>
+                <div class="comment-group">
+                    <label for="comment">Leave a Comment:</label>
+                    <textarea id="comment" name="comment" rows="5" placeholder="Write your comment here..."></textarea>
+                    <button type="submit">Send</button>
+                </div>
+                </form>
+            </div>
+          </section>
+          
     </main>
 
     <footer>
