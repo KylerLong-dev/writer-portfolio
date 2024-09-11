@@ -108,7 +108,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-#about {
+#about, #blog {
     display: flex;
     gap: 75px;
 }
@@ -204,7 +204,7 @@ h2 {
     justify-content: center;
 }
 
-  .contact-container {
+.contact-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -220,27 +220,27 @@ h2 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
-  #contact h2 {
+#contact h2 {
     font-family: 'Courier New', Courier, monospace;
     color: #3b2b2b; 
     text-align: center;
     font-size: 2rem;
   }
   
-  #contact form {
+#contact form {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
   
-  .form-group {
+.form-group {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
   }
   
-  #contact input[type="text"],
-  #contact input[type="email"] {
+#contact input[type="text"],
+#contact input[type="email"] {
     flex: 1; 
     padding: 10px;
     font-size: 1rem;
@@ -254,25 +254,25 @@ h2 {
     max-width: 100%;
   }
   
-  #contact input[type="text"]:focus,
-  #contact input[type="email"]:focus {
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus {
     border-color: #3b2b2b;
     outline: none;
   }
   
-  .comment-group {
+.comment-group {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
   
-  #contact label {
+#contact label {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
     color: #3b2b2b;
   }
   
-  #contact textarea {
+#contact textarea {
     width: 100%;
     max-width: 800px;
     padding: 10px;
@@ -286,12 +286,12 @@ h2 {
     resize: vertical; 
   }
   
-  #contact textarea:focus {
+#contact textarea:focus {
     border-color: #3b2b2b;
     outline: none;
   }
   
-  #contact button {
+#contact button {
     background-color: #3b2b2b; 
     color: #fff;
     padding: 10px 20px;
@@ -303,7 +303,7 @@ h2 {
     transition: background-color 0.3s ease;
   }
   
-  #contact button:hover {
+#contact button:hover {
     background-color: #291f1f; 
   }
   
@@ -327,7 +327,7 @@ footer p {
 /* Responsive Styles */
 
 @media (max-width: 1400px) {
-    #about {
+    #about, #blog {
         flex-direction: column;
     }
 
@@ -354,7 +354,7 @@ footer p {
         padding: 20px;
     }
 
-    #about {
+    #about, #blog {
         flex-direction: column;
         align-items: center;
         gap: 50px;
@@ -425,7 +425,7 @@ footer p {
         padding: 10px;
     }
 
-    #about {
+    #about, #blog {
         flex-direction: column;
         align-items: center;
         gap: 15px;
